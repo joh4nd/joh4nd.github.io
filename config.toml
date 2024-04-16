@@ -1,0 +1,9 @@
+baseURL = 'https://joh4nd.github.io/'
+languageCode = 'en-us'
+theme = 'anatole'
+enableEmoji = true # is this necessary?
+
+[params]
+title = 'Johan´s'
+author = 'Johan'
+description = 'blogging and work-related'
