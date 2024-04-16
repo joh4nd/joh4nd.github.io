@@ -1,0 +1,42 @@
+name: Build and Deploy Site
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.104.3' # hugo v0.104.3+extended linux/amd64 BuildDate=2022-10-14T12:29:34Z VendorInfo=debian:0.104.3-1~bpo11+1
+          extended: true # https://github.com/peaceiris/actions-hugo?tab=readme-ov-file#%EF%B8%8F-use-hugo-extended
+
+      - name: Build site with Hugo
+        run: hugo --minify
+
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./public"
+          arguments: --only-4xx --check-favicon --check-html --assume-extension --empty-alt-ignore --disable-external
+        continue-on-error: true
+
+      - name: Deploy to GitHub Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
