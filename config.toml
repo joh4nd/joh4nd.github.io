@@ -4,6 +4,66 @@ theme = 'anatole'
 enableEmoji = true # is this necessary?
 
 [params]
-title = 'Johan´s'
+contentratio = 0.75
 author = 'Johan'
-description = 'blogging and work-related'
+profilePicture = "images/profile.png"
+title = 'Johan´s'
+description = """
+work-related
+"""
+copyright = "2024-{{ YEAR }}"
+mainSections = ["blog"]
+indexDateFormat = "2006-01-02"
+doNotLoadAnimations = true
+readMore = true
+favicon = "favicons/"
+
+  # use 'fab' when brand icons, use 'fas' when standard solid icons.
+  [[params.socialIcons]]
+  icon = "fab fa-github"
+  title = "GitHub"
+  url = "https://github.com/joh4nd"
+  
+  [[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "e-mail"
+  url = "mailto:johan.illusive535@passfwd.com"
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "blog"
+  weight = 200
+  identifier = "blog"
+  url = "/blog/"
+
+  [[menu.main]]
+  name = "IT"
+  weight = 300
+  identifier = "it"
+  url = "/it/"
+
+  [[menu.main]]
+  name = "links"
+  weight = 400
+  identifier = "links"
+  url = "/links/"
+
+  [[menu.main]]
+  name = "PGP key"
+  weight = 500
+  identifier = "pgp"
+  url = "/pgp/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 600
+  identifier = "about"
+  url = "/about/"
