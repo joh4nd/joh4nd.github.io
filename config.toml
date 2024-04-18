@@ -18,7 +18,7 @@ doNotLoadAnimations = true
 readMore = true
 favicon = "favicons/"
 
-  # use 'fab' when brand icons, use 'fas' when standard solid icons.
+  # 'fab' for brand icons, 'fas' for standard solid icons.
   [[params.socialIcons]]
   icon = "fab fa-github"
   title = "GitHub"
