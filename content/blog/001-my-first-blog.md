@@ -1,5 +1,5 @@
 ---
-title: "My First Blog Post"
+title: "My First Blog Post: Pixelated Pictures as Missing Data"
 date: 2024-04-17T10:27:19+02:00
 draft: false
 ---
