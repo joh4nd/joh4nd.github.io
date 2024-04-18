@@ -45,7 +45,7 @@ favicon = "favicons/"
   url = "/blog/"
 
   [[menu.main]]
-  name = "IT"
+  name = "My IT wall"
   weight = 300
   identifier = "it"
   url = "/it/"
@@ -61,9 +61,3 @@ favicon = "favicons/"
   weight = 500
   identifier = "pgp"
   url = "/pgp/"
-
-  [[menu.main]]
-  name = "About"
-  weight = 600
-  identifier = "about"
-  url = "/about/"
