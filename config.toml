@@ -12,11 +12,13 @@ description = """
 work-related
 """
 copyright = "2024-{{ YEAR }}"
-mainSections = ["blog"]
+mainSections = ["blog"] # list latest posts
 indexDateFormat = "2006-01-02"
 doNotLoadAnimations = true
 readMore = true
+#fullPostContent = true
 favicon = "favicons/"
+postSectionName = "blog"
 
   # 'fab' for brand icons, 'fas' for standard solid icons.
   [[params.socialIcons]]
@@ -45,16 +47,16 @@ favicon = "favicons/"
   url = "/blog/"
 
   [[menu.main]]
-  name = "My IT wall"
+  name = "IT wall"
   weight = 300
   identifier = "it"
   url = "/it/"
 
-  [[menu.main]]
-  name = "links"
-  weight = 400
-  identifier = "links"
-  url = "/links/"
+  # [[menu.main]]
+  # name = "links"
+  # weight = 400
+  # identifier = "links"
+  # url = "/links/"
 
   [[menu.main]]
   name = "PGP key"
