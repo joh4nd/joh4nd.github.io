@@ -36,17 +36,27 @@ _Experienced_
 _Beginner_
 ||
 |---|---|---|---|---|---|---|---|
-| {{< figure src="/images/it/C_Logo.svg" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Java.png" height="70" >}} |  &nbsp; &nbsp; | {{< figure src="/images/it/Groovy.png" height="60" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/QGIS.png" height="40" >}} |
+| {{< figure src="/images/it/C_Logo.png" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Java.png" height="70" >}} |  &nbsp; &nbsp; | {{< figure src="/images/it/Groovy.png" height="60" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/QGIS.png" height="40" >}} |
 
 &nbsp;
 
 &nbsp;
 
 __Database__
-||
-|---|---|---|---|---|---|---|
-| {{< figure src="/images/it/Elasticsearch.png" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Oracle.png" height="30" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/postgresql2.png" height="80" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/sqlite.png" height="50" >}} |
 
+_Experienced_
+||
+|---|---|---|
+| {{< figure src="/images/it/Elasticsearch.png" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Oracle.png" height="30" >}} |
+
+_Tried_
+||
+|---|---|---|
+| {{< figure src="/images/it/postgresql2.png" height="80" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/sqlite.png" height="50" >}} |
+
+&nbsp;
+
+&nbsp;
 
 __Data formats__
 ||
@@ -58,15 +68,23 @@ __Data formats__
 &nbsp;
 
 __Collaboration and Version Control__
+
+_Experienced_
 ||
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| {{< figure src="/images/it/Atlassian.png" height="30" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/git.png" height="40" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Google_Colaboratory.png" height="70" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Replit.png" height="60" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/gitlab.png" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/GitHub.svg" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Codeberg.png" height="70" >}} |
+|---|---|---|---|---|
+| {{< figure src="/images/it/Atlassian.png" height="30" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/git.png" height="40" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/GitHub.svg" height="50" >}} |
+
+_Tried_
+||
+|---|---|---|---|---|---|---|
+| {{< figure src="/images/it/Google_Colaboratory.png" height="70" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Replit.png" height="60" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/gitlab.png" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Codeberg.png" height="70" >}} |
 
 &nbsp;
 
 &nbsp;
 
 __Dashboard/User Interface__
+
 ||
 |---|---|---|---|---|---|---|---|---|---|
 | {{< figure src="/images/it/Tableau.png" height="40" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Kibana.png" height="60" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Plotly.png" height="70" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/flask.webp" height="50" >}} | &nbsp; &nbsp; | | {{< figure src="/images/it/hugo.png" height="50" >}} |
