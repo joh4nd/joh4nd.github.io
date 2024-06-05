@@ -8,23 +8,6 @@ ___- My experience___
 
 &nbsp;
 
-__Organizations__
-||
-|---|---|
-| {{< figure src="/images/it/carpentries.png" height="70" >}} | |
-
-&nbsp;
-
-&nbsp;
-
-__Operating Systems, Kernels, Environments__
-||
-|---|---|---|---|---|---|---|---|---|
-| {{< figure src="/images/it/Debian_logo.png" width="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/linux.png" height="100" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Microsoft.png" height="40" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/docker.png" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Jupyter.png" height="70" >}} |
-
-&nbsp;
-
-&nbsp;
 
 __Programming, Scripting, and Domain-Specific Languages__
 
@@ -111,6 +94,15 @@ __IDEs__
 
 &nbsp;
 
+__Operating Systems, Kernels, Environments__
+||
+|---|---|---|---|---|---|---|---|---|
+| {{< figure src="/images/it/Debian_logo.png" width="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/linux.png" height="100" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Microsoft.png" height="40" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/docker.png" height="50" >}} | &nbsp; &nbsp; | {{< figure src="/images/it/Jupyter.png" height="70" >}} |
+
+&nbsp;
+
+&nbsp;
+
 some knowledge/research on
 - ansible
 - apache airflow
@@ -130,3 +122,14 @@ Basic networking
 - dns
 - http
 - rest api
+
+
+&nbsp;
+
+&nbsp;
+
+__Organizations__
+||
+|---|---|
+| {{< figure src="/images/it/carpentries.png" height="70" >}} | |
+

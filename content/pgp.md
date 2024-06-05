@@ -8,4 +8,4 @@ type: "page"
 
 [0xBC400639]({{% ref "/pgp/key0xbc400639" %}})
 
-I'll sign mails send to you with the corresponding key.
+I'll sign mails sent to you with the corresponding key.
